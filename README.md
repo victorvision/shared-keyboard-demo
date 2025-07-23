@@ -49,4 +49,4 @@ This project is ideal for those looking to optimize keyboard usage in industrial
 
 ## Downloads and Resources
 
-- [Project on GitHub](#) *(insert GitHub repo link)*
+* Project on GitHub
