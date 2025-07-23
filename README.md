@@ -1,4 +1,4 @@
-# Industrial Equipment Parameter Configurator
+# Shared Keyboard Demo
 
 This project demonstrates how to edit multiple variables using only a single keyboard in **UnicView Studio**. This approach reduces the need to create multiple keyboard windows and simplifies project maintenance — any modification to the keyboard needs to be made only once.
 
