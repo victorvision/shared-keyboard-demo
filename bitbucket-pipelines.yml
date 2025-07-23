@@ -1,0 +1,11 @@
+pipelines:
+  default:
+    - step:
+        name: Sync GitHub Mirror
+        image: alpine/git:latest
+        clone:
+          enabled: false
+        script:
+          - git clone --branch master --single-branch --bare git@bitbucket.org:victorvisionpd/industrial-equipment-parameter-configurator-demo.git
+          - cd industrial-equipment-parameter-configurator-demo.git
+          - git push --mirror git@github.com:victorvision/industrial-equipment-parameter-configurator-demo.git
